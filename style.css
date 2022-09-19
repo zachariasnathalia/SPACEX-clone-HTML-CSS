@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  color: white;
+  text-align: left;
+}
+
+* {
+  font-family: "Rubki", sans-serif;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+.header #navItem {
+  margin-top: 15px;
+}
+.header #navItem:hover {
+  color: #979797;
+  transition-delay: 0.06s;
+  transition-duration: 0.7s;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  width: 90px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+}
+
+.classNav {
+  margin: 0px 25px;
+  padding: 0px;
+}
+
+.logoSX {
+  width: 200px;
+  text-align: left;
+  margin-right: 50px;
+}
+
+#button {
+  padding: 15px 35px;
+  border-radius: 0%;
+}
+
+.footer {
+  position: relative;
+  background-color: black;
+  height: 15vh;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.footer span {
+  color: #979797;
+}
+.footer a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin: 0 20px;
+}
+.footer a:hover {
+  transition-delay: 0.06s;
+  transition-duration: 0.7s;
+  color: #979797;
+}
+
+.moreInfo {
+  background-color: black;
+  height: 80vh;
+  padding-top: 50vh;
+}
+.moreInfo p {
+  color: #555252;
+  font-size: 13px;
+}
+.moreInfo a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+.moreInfo a:hover {
+  color: #979797;
+  transition-delay: 0.06s;
+  transition-duration: 0.7s;
+}
+.moreInfo button {
+  border-radius: 0px;
+  border: 2px solid white;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 16px 12px;
+  margin: 10px;
+}
+.moreInfo button:hover {
+  transition-delay: 0.06s;
+  transition-duration: 0.7s;
+}
+
+.container00.container01 {
+  background-image: url(../../images/home/01.jpg);
+}
+.container00.container02 {
+  background-image: url(../../images/home/02.gif);
+}
+.container00.container03 {
+  background-image: url(../../images/home/03.jpg);
+}
+.container00.container04 {
+  background-image: url(../../images/home/04.jpg);
+}
+
+.titlePadding {
+  padding-left: 0px;
+  margin-left: 40px;
+  padding-top: 300px;
+}
+
+.titlePadding2 {
+  padding-left: 0px;
+  margin-left: 40px;
+  padding-top: 380px;
+}
+
+.shortTitle {
+  width: 650px;
+}
+
+.mediumTitle {
+  width: 480px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.starship {
+  margin-top: 130px;
+  margin-bottom: 5px;
+}
+
+.container00.container05 {
+  background-image: url(/images/falcon9/5a545769370f2c06718b4609.jpg);
+}
+.container00.container06 {
+  background-image: url(/images/falcon9/02.jpg);
+}
+.container00.carousel01 {
+  background-image: url(/images/falcon9/03.jpg);
+}
+.container00.carousel02 {
+  background-image: url(/images/falcon9/04.jpg);
+}
+.container00.carousel03 {
+  background-image: url(/images/falcon9/05.jpg);
+}
+.container00.carousel04 {
+  background-image: url(/images/falcon9/06.jpg);
+}
+.container00.carousel05 {
+  background-image: url(/images/falcon9/07.jpg);
+}
+.container00.container07 {
+  background-image: url(/images/falcon9/08.jpg);
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  margin: 50px 100px;
+}
+
+.titleFalcon9 {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.subtitleFalcon9 {
+  font-size: 18px;
+}
+
+.numbers {
+  background-color: black;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.numbers .titleNumber {
+  font-size: 120px;
+  padding: 0px 40px;
+}
+.numbers .subtitleNumber {
+  font-size: 18px;
+}
+
+.containerFalcon9Description {
+  display: grid;
+  height: 100vh;
+  justify-content: left;
+  align-items: center;
+  margin-left: 30px;
+}
+.containerFalcon9Description .falcon9Description {
+  font-size: 16px;
+  width: 550px;
+  line-height: 40px;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 40px;
+  padding-top: 150px;
+  height: 100vh;
+  line-height: 25px;
+}
+
+.subtitleOverView {
+  margin-bottom: 5px;
+}
+
+.titleOverView {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#widthTable {
+  line-height: 40px;
+}
+
+.carouselContainer img {
+  height: 100vh;
+}
+
+.container00.container08 {
+  background-image: url(/images/humanFlight/8fee9e28e3b2429284e4bee5db4723d6.jpg);
+}
+.container00.container09 {
+  background-image: url(/images/humanFlight/04.jpg);
+}
+.container00.container10 {
+  background-image: url(/images/humanFlight/05.jpg);
+}
+.container00.container11 {
+  background-image: url(/images/humanFlight/02.jpg);
+}
+.container00.container12 {
+  background-image: url(/images/humanFlight/03.jpg);
+}
+
+.titleContentHuman {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+}
+.titleContentHuman .titleHuman {
+  font-size: 80px;
+  font-weight: 700;
+}
+.titleContentHuman .subtitleHuman {
+  font-size: 18px;
+}
+
+.arrowDown1 {
+  margin-top: 130px;
+  width: 90px;
+}
+
+.containerDesc {
+  background-color: black;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerDesc .textDesc {
+  color: #d8d8d8;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 15px;
+}
+.containerDesc .textDesc a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.containerDesc .textDesc a:hover {
+  color: #979797;
+  transition-delay: 0.06s;
+  transition-duration: 0.7s;
+}
+
+.rightContent {
+  padding-left: 600px;
+  padding-top: 40vh;
+  margin-right: 0px;
+}
+.rightContent .titleSection {
+  font-size: 60px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.rightContent .subtitleSection {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+.rightContent button {
+  border-radius: 0px;
+  border: 2px solid;
+  font-size: 12px;
+  font-weight: 800;
+}
+.rightContent button:hover {
+  transition-delay: 0.06s;
+  transition-duration: 0.7s;
+}
+
+.leftContent {
+  padding-left: 40px;
+  margin-left: 0px;
+  padding-top: 50vh;
+  width: 500px;
+}
+.leftContent .titleSection1 {
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.leftContent .subtitleSection1 {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+.leftContent button {
+  border-radius: 0px;
+  border: 2px solid;
+  font-size: 12px;
+  font-weight: 800;
+}
+.leftContent button:hover {
+  transition-delay: 0.06s;
+  transition-duration: 0.7s;
+}
+
+/*# sourceMappingURL=style.css.map */
